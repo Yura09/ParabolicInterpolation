@@ -56,13 +56,9 @@
 
     void keyPressed() {
         if (key == ENTER) {
-
             click = true;
-
         } else if (key == DELETE) {
-          
             click = false;
-    
             clear();
             background(250);
         }
